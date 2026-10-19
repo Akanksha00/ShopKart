@@ -1,10 +1,13 @@
 import React from 'react'
-function Product() {
+import Navbar from '../components/Navbar'
+import Footer from '../components/Footer'
+function Products() {
   return (
-    <div>
-      <h1>ShopKart Product</h1>
-    </div>
+    <>
+      <Navbar />
+      <div>ShopKart Products</div>
+      <Footer />
+    </>
   )
 }
-
-export default Product
+export default Products

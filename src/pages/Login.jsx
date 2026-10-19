@@ -1,10 +1,14 @@
 import React from 'react'
+import Navbar from '../components/Navbar'
+import Footer from '../components/Footer'
+
 function Login() {
   return (
-    <div>
-      <h1>ShopKart Login</h1>
-    </div>
+    <>
+    <Navbar />
+    <div>Login</div>
+    <Footer />
+    </>
   )
 }
-
 export default Login
